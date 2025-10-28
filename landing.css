@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    padding: 0px;
+}
+
+img {
+    margin: 0px;
+}
