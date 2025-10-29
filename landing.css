@@ -1,15 +1,35 @@
 body {
     display: flex;
     flex-direction: column;
-}
-
-.header, .footer {
-    background-color: #1f2937;
-    height: 50px;
-    display: flex;
-    padding: 0px;
-}
-
-img {
+    font-family: Roboto sans-serif;
     margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.logo {
+    flex: 0 1;
+}
+
+.page-links {
+    flex: 0 1;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    min-width: content;
+    color: #ffffff;
+}
+
+a {
+    white-space: nowrap;
+}
+
+#home {
+    background-color: #1F2937;
+    color: #ffffff;
 }
