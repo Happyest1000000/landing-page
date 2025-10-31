@@ -10,10 +10,14 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     margin: 0px;
+    align-items: center;
+    padding: 5px;
+    color: #ffffff;
 }
 
 .logo {
     flex: 0 1;
+    white-space: nowrap;
 }
 
 .page-links {
@@ -32,4 +36,28 @@ a {
 #home {
     background-color: #1F2937;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-home {
+    flex: 0 1 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-home {
+    flex: 0 1;
+}
+
+.right-home img {
+    max-height: 400px;
+    max-width: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
 }
