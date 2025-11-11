@@ -1,7 +1,10 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto sans-serif;
     margin: 0px;
 }
 
@@ -11,13 +14,15 @@ body {
     background-color: #1F2937;
     margin: 0px;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     color: #ffffff;
 }
 
 .logo {
     flex: 0 1;
     white-space: nowrap;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .page-links {
@@ -26,11 +31,18 @@ body {
     gap: 15px;
     align-items: center;
     min-width: content;
-    color: #ffffff;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 a {
     white-space: nowrap;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 #home {
@@ -41,11 +53,15 @@ a {
     gap: 20px;
 }
 
+
+
 .left-home {
     flex: 0 1 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .right-home {
@@ -60,4 +76,15 @@ a {
 .buttons {
     display: flex;
     gap: 15px;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #ffffff;
+    padding: 5px 20px;
 }
